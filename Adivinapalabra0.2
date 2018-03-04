@@ -1,0 +1,20 @@
+import java.util.*;
+import java.util.Random;
+public class mierda{
+  public static void main(String[]args){
+    Scanner entrada = new Scanner(System.in);
+    int i =0;
+    Random aleatorio = new Random();
+    int aleatorio2 = aleatorio.nextInt(8);
+    String[]array = {"hola","polla","retrasado","manuel","ola","tenedor","guia","lombarda","pingüino"};
+    while(i==0){
+    String rellenar = entrada.next();
+    if(rellenar.equals(array[aleatorio2])){
+      System.out.println("gilipollas");
+      i++;
+    }else{
+      System.out.println("prueba otra vez");
+        }
+      }
+    }
+  }
